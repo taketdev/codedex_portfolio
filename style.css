@@ -73,7 +73,7 @@ main{
     margin: 10px 20px;
     padding: 24px;
     width: 1091px;
-    height: 80px; /* Nur Header sichtbar */
+    height: 112px; /* Nur Header sichtbar */
     overflow: hidden;
     border-radius: 24px;
     transition: height 0.3s ease, margin 0.3s ease; /* Vorbereitung für Hover */
@@ -87,7 +87,7 @@ main{
 
 .skills {
     background-color: #C3B78F;
-    margin-top: -40px; /* Überlappung */
+    margin-top: -56px; /* Überlappung */
     z-index: 2;
 }
 
@@ -98,14 +98,15 @@ main{
 
 .projects {
     background-color: #AFA582;
-    margin-top: -40px; /* Überlappung */
+    margin-top: -56px; /* Überlappung */
     z-index: 3;
 }
 
 .contact {
     background-color: #978F71;
-    margin-top: -40px; /* Überlappung */
+    margin-top: -56px; /* Überlappung */
     z-index: 4;
+    height: auto;
 }
 
 .headertextLeft{
